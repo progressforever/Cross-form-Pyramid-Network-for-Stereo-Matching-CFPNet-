@@ -5,7 +5,7 @@ import torch.utils.data
 from torch.autograd import Variable
 import torch.nn.functional as F
 import math
-from models import submodule_move57 as sb
+from models import submodule as sb
 
 class PSMNet(nn.Module):
     def __init__(self, maxdisp):
